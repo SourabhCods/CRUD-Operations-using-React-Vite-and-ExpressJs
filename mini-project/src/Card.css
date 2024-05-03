@@ -1,0 +1,19 @@
+.cartoon-Card{
+    display : column;
+    text-align: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    height : 400px;
+    width :  300px;
+    border : 1px solid black;
+    margin-bottom: 45px;
+    border-radius: 10px;
+
+    
+}
+
+.cartoon-Image{
+    height : 200px;
+    width : 100%;
+}
