@@ -78,6 +78,9 @@ export default function SignUpForm(){
     }
 
     return(
+        <>
+        <h2>Sign Up Form</h2>
+        
         <form onSubmit={handleOnSubmit}>
             <TextField
             onChange={handleOnNameChange}
@@ -125,5 +128,6 @@ export default function SignUpForm(){
         </form>
 
         
+    </>
     )
 }
